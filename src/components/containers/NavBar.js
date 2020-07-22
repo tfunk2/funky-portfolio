@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../stylesheets/NavBar.css'
 
 export default function NavBar(props) {
 
@@ -7,9 +8,9 @@ export default function NavBar(props) {
     }
 
     return (
-        <div>
-            <nav>
-                <ul>
+        <div className="navbar-div">
+            <nav className="navbar-nav">
+                <ul className="navbar-ul">
                     <li className="home">
                         <div onClick={() => handleClick("home")}>
                             <span className="link-text">Home</span>
