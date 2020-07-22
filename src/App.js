@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
+import NavBar from './components/containers/NavBar.js';
 
-function App() {
-  return (
-    <div className="app">
-      <header className="app-header">
-        <h1>A Funky Portfolio</h1>
-        <h2>made by Tyler Funk</h2>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    activeTab: "home"
+  }
+
+  setActiveTab = (tabClicked) => {
+    this.setState({ activeTab: tabClicked })
+  }
+
+  render() {
+    return (
+      <div className="app">
+        <header className="app-header">
+          <NavBar setActiveTab={this.setActiveTab} />
+        </header>
+        <div>
+          {this.state.activeTab}
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
