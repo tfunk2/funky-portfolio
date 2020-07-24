@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(189, 189, 189);
+}
+
+.home-div {
+    background-color: #7e2d49;
+    display: flex;
+}
+
+.headshot {
+    max-height: 300px;
+}
