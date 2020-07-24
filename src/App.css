@@ -1,3 +1,19 @@
+/* This makes it so there isn't an overscroll at the top or bottom of the page */
+
+body {
+    overscroll-behavior-y: none;
+}
+
+/* ^^^ */
+
+html {
+    cursor:url(images/Complete_Custom_Cursor.png), auto;
+}
+
 .app {
     margin-top: 0px;
+}
+
+.test-content {
+    margin-top: 150px;
 }

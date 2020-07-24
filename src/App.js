@@ -17,7 +17,121 @@ class App extends Component {
         <header className="app-header">
           <NavBar setActiveTab={this.setActiveTab} />
         </header>
-        <div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
+          {this.state.activeTab}
+        </div>
+        <div className="test-content">
           {this.state.activeTab}
         </div>
       </div>

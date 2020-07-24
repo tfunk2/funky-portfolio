@@ -12,7 +12,7 @@ export default function NavBar(props) {
         <div className="navbar-div">
             <nav className="navbar-nav">
                 <ul className="navbar-ul-left">
-                    <li>
+                    <li onClick={() => handleClick("home")}>
                         <img 
                             id="main-logo-img"
                             alt="main logo made with T and F" 
@@ -22,11 +22,6 @@ export default function NavBar(props) {
                     </li>
                 </ul>
                 <ul className="navbar-ul-right">
-                    <li className="navbar-li" id="home" onClick={() => handleClick("home")}>
-                        <div className="link-div">
-                            <span className="link-text">Home</span>
-                        </div>
-                    </li>
                     <li className="navbar-li" id="projects" onClick={() => handleClick("projects")}>
                         <div className="link-div">
                             <span className="link-text">Projects</span>
@@ -37,9 +32,9 @@ export default function NavBar(props) {
                             <span className="link-text">Resume</span>
                         </div>
                     </li>
-                    <li className="navbar-li" id="contact-info" onClick={() => handleClick("contact-info")}>
+                    <li className="navbar-li" id="about" onClick={() => handleClick("about")}>
                         <div className="link-div">
-                            <span className="link-text">Contact Info</span>
+                            <span className="link-text">About</span>
                         </div>
                     </li>
                 </ul>
