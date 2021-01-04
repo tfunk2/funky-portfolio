@@ -2,7 +2,7 @@ import React from 'react';
 import '../../stylesheets/Home.css'
 import TFHeadShot from '../../images/DSC_5501.JPG'
 
-export default function Home(props) {
+export default function Home({ activeTab }) {
     return(
         <div className="home-div">
             <h3 className="opening-paragraph">

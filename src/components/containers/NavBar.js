@@ -2,10 +2,10 @@ import React from 'react'
 import '../../stylesheets/NavBar.css'
 import CompletedTFlogo from '../../images/completed_TF_logo.jpg'
 
-export default function NavBar(props) {
+export default function NavBar({ setActiveTab }) {
 
     const handleClick = (clickedTab) => {
-        props.setActiveTab(clickedTab)
+        setActiveTab(clickedTab)
     }
 
     return (
