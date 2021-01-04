@@ -5,8 +5,16 @@ body {
 .home-div {
     background-color: #7e2d49;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
 }
 
 .headshot {
     max-height: 300px;
+}
+
+.opening-paragraph {
+    margin: 25px;
 }
