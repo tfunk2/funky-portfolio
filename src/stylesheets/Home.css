@@ -3,6 +3,7 @@ body {
 }
 
 .home-div {
+    border: #612238 5px solid;
     background-color: #7e2d49;
     display: flex;
     justify-content: space-between;
